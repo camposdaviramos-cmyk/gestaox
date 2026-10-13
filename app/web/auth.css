@@ -1,0 +1,25 @@
+.skyx-logo{display:block;object-fit:contain;height:auto}
+.sidebar .brand{padding:0 7px;min-height:35px}
+.sidebar .brand .skyx-logo{width:143px;height:auto}
+.auth{min-height:100vh;min-height:100svh;display:flex;align-items:center;justify-content:center;padding:48px 24px;background:radial-gradient(ellipse at 86% 60%,#d497b955 0,transparent 45%),radial-gradient(ellipse at 20% 32%,#7662cb99 0,transparent 52%),radial-gradient(ellipse at 78% 0%,#c9d5c077 0,transparent 47%),linear-gradient(155deg,#a29db1 0%,#66638f 42%,#39365f 100%);color:#fff;color-scheme:light}
+.auth-card{width:100%;max-width:520px;padding:48px 48px 42px;border:1px solid #ffffff30;border-radius:22px;background:linear-gradient(135deg,#ffffff19,#d7bce124);box-shadow:0 24px 80px #24184026,inset 0 1px 0 #ffffff19;backdrop-filter:blur(22px);-webkit-backdrop-filter:blur(22px)}
+.auth-heading{text-align:center;margin-bottom:38px}
+.auth-heading .skyx-logo{width:190px;max-width:100%;margin:0 auto 28px}
+.auth-heading h1{font-size:18px;font-weight:500;line-height:1.5;letter-spacing:-.3px;margin:0;color:#fff}
+.auth-heading p{margin:8px 0 0;color:#f0eafb;font-size:13px}
+.auth-card label{color:#fff;font-size:14px;font-weight:600;gap:11px;margin-bottom:21px}
+.auth-card input:not([type=checkbox]){height:56px;padding:14px 18px;border:1px solid #ffffff8c;border-radius:10px;background:#faf9fc;color:#302c43;font-size:17px;font-weight:400;box-shadow:0 2px 5px #25133f0d;transition:border-color .15s,box-shadow .15s}
+.auth-card input::placeholder{color:#85818f;opacity:1}
+.auth-card input:focus{border-color:#88dfff;box-shadow:0 0 0 3px #79d8ff42}
+.auth-card .primary{height:52px;margin-top:12px;border-radius:10px;background:linear-gradient(105deg,#42b8ed,#8bdcf3);color:#173e58;font-size:16px;font-weight:700;box-shadow:0 5px 16px #214e8f18;transition:filter .15s,box-shadow .15s}
+.auth-card .primary:hover{background:linear-gradient(105deg,#42b8ed,#8bdcf3);filter:brightness(1.08);box-shadow:0 6px 22px #214e8f30}
+.auth-card .primary:focus-visible,.auth-two-factor summary:focus-visible{outline:3px solid #b4edff;outline-offset:4px}
+.auth-card .primary:disabled{opacity:.65}
+.auth-two-factor{margin:-3px 0 9px;color:#f0eafb;font-size:12px}
+.auth-two-factor summary{cursor:pointer;min-height:28px;padding:4px 0;width:fit-content;border-radius:3px}
+.auth-two-factor[open] summary{margin-bottom:14px}
+.auth-two-factor label{margin-bottom:12px}
+.auth-card .checkbox{font-size:12px;font-weight:400;line-height:1.6}
+.auth-card .checkbox input{accent-color:#55c6f2;box-shadow:none}
+.auth-card .error{background:#fff1f1;color:#963443;border:1px solid #f3bdc6}
+@media(max-width:600px){.auth{padding:28px 20px}.auth-card{padding:36px 26px 30px;border-radius:20px}.auth-heading{margin-bottom:30px}.auth-heading .skyx-logo{width:174px;margin-bottom:24px}.auth-heading h1{font-size:17px}.auth-card input:not([type=checkbox]){font-size:16px}}

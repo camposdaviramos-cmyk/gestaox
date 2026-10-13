@@ -10,7 +10,8 @@ As bibliotecas React e React DOM estão em `web/vendor`, servidas localmente. A 
 
 ## Desenvolvimento
 
-* Interface: `web/app.jsx` e `web/styles.css`.
+* Interface: `web/app.jsx`, `web/styles.css`, `web/refinements.css` e `web/auth.css`.
+* Identidade visual: `web/logo.svg` (marca SKYX) e `web/favicon.svg`.
 * API e persistência: `server.py`.
 * Compilar JSX: `data\node.exe build.cjs` neste computador, ou `node build.cjs` com Node instalado.
 * Instalar dependência em outro computador: `python -m pip install -r requirements.txt`.
@@ -59,4 +60,4 @@ Esta entrega executa localmente. A publicação e integração ao site instituci
 
 Integrações GitHub/GitLab/Bitbucket, deploy automático, chat interno, financeiro, contratos, mobile e demais itens da seção “Funcionalidades futuras” não estão conectados. Versões são registradas manualmente. Controle prévio de dispositivos autorizados, alertas externos de segurança e infraestrutura não foram implementados. Notificações internas cobrem criações e alterações; próximos prazos são calculados no dashboard. Atualizações são consultadas a cada 30 segundos.
 
-O briefing não contém logotipo oficial, paleta exata ou telas de referência: a identidade visual foi criada para o portal com azul profundo, verde-água e superfícies claras.
+A tela de acesso segue a referência visual fornecida: fundo em tons roxos, cartão translúcido centralizado e marca SKYX branca com X azul. A marca foi recriada em SVG e aplicada também ao menu e ao ícone do navegador. O primeiro acesso continua criando o administrador; usuários com 2FA podem abrir “Usar código de autenticação 2FA” para informar o código.
