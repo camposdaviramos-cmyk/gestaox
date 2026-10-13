@@ -1,0 +1,6 @@
+data/
+__pycache__/
+.env
+node_modules/
+web/app.js
+test-results/

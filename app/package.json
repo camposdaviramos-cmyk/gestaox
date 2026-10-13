@@ -1,0 +1,9 @@
+{
+  "name": "skyx-gestao",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Skyx Gestão — React e API Python/SQLite",
+  "scripts": {"build": "node build.cjs", "start": "python server.py", "test": "python -m unittest discover -s tests -v"},
+  "dependencies": {"react": "18.3.1", "react-dom": "18.3.1"},
+  "devDependencies": {"@babel/standalone": "7.26.9"}
+}
